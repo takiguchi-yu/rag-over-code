@@ -1,0 +1,7 @@
+chromadb==0.4.23
+langchain-community==0.0.24
+langchain-openai==0.0.7
+langchain==0.1.9
+mypy==1.8.0
+pylint==3.0.4
+python-dotenv==1.0.1

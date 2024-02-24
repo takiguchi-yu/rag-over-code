@@ -1,0 +1,23 @@
+{
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": [
+    "source.addMissingImports",
+    "source.fixAll.eslint",
+    "source.organizeImports"
+  ],
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "pylint.args": [
+    "--rcfile=${workspaceFolder}/embedding/.pylintrc",
+    "--rcfile=${workspaceFolder}/retriever/.pylintrc"
+  ]
+}
